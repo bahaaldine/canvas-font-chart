@@ -1,0 +1,12 @@
+.fontChart {
+	text-align: center;
+	color: rgba(0,0,0,0);
+}
+
+.fontChart linearGradient {
+	-webkit-transition: 2000ms ease;
+    -moz-transition: 2000ms ease;
+    -ms-transition: 2000ms ease;
+    -o-transition: 2000ms ease;
+	transition: 2000ms ease;
+}
