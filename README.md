@@ -4,7 +4,7 @@ A Canvas plugin which allows to use a font from https://fontawesome.com as a per
 
 ## Demo
 
-![alt demo]https://github.com/bahaaldine/canvas-font-chart/blob/master/font-chart.gif?raw=true
+![demo](https://github.com/bahaaldine/canvas-font-chart/blob/master/font-chart.gif?raw=true)
 
 ## How to use ?
 
