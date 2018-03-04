@@ -2,6 +2,10 @@
 
 A Canvas plugin which allows to use a font from https://fontawesome.com as a percentage chart.
 
+## Demo
+
+![demo]https://github.com/bahaaldine/canvas-font-chart/blob/master/font-chart.gif?raw=true
+
 ## How to use ?
 
 Ex:
