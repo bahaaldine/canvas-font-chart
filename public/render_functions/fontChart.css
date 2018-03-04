@@ -10,3 +10,8 @@
     -o-transition: 2000ms ease;
 	transition: 2000ms ease;
 }
+
+.fontChart .odometer {
+	font-weight: bold;
+	margin-top: -20px;
+}
