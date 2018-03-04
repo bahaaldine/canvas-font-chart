@@ -53,7 +53,7 @@ export const fontChart = () => ({
       $('#'+domId + ' .font', domNode).css('font-size', size+'px'); 
       $('#'+domId+' svg g', domNode).attr('fill', 'url(#grad' + uuid + ')');
       $('#'+domId+' svg defs', domNode).remove();
-      $('#'+domId+' svg g', domNode).before('<defs><linearGradient id="grad'+uuid+'" x1="0" x2="0" y1="0" y2="100%"><stop offset="'+percentage+'" stop-color="white"><animate begin="0s"  attributeName="offset" from="'+prevPercentage+'" to="'+percentage+'" dur="800ms" repeatCount="1" keySplines="0.1 0.8 0.2 1;0.1 0.8 0.2 1;0.1 0.8 0.2 1;0.1 0.8 0.2 1;0.1 0.8 0.2 1;0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" /></stop><stop offset="0%" stop-color="'+color+'"></stop></linearGradient></defs>');
+      $('#'+domId+' svg g', domNode).before('<defs><linearGradient id="grad'+uuid+'" x1="0" x2="0" y1="0" y2="100%"><stop offset="'+percentage+'" stop-color="#F5F5F5"><animate begin="0s"  attributeName="offset" from="'+prevPercentage+'" to="'+percentage+'" dur="800ms" repeatCount="1" keySplines="0.1 0.8 0.2 1;0.1 0.8 0.2 1;0.1 0.8 0.2 1;0.1 0.8 0.2 1;0.1 0.8 0.2 1;0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" /></stop><stop offset="0%" stop-color="'+color+'"></stop></linearGradient></defs>');
       
       //$('#'+domId+' div.odometer', domNode)[0].innerHTML = Math.round(config.value);
       $('#'+domId + ' .odometer', domNode).css('font-size', size*0.3+'px'); 
